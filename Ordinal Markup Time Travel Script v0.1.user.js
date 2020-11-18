@@ -17,7 +17,7 @@
     }
 
     // Button code taken from https://hibbard.eu/tampermonkey-tutorial/
-    $('body').append('<input type="button" value="Open" id="CP">')
+    $('body').append('<input type="button" value="1 Hour" id="CP">')
     $("#CP").css("position", "fixed").css("top", 0).css("left", 0);
     $('#CP').click(function(){
         timet(3600);
